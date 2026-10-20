@@ -1,0 +1,3 @@
+#!/bin/sh
+mkdir -p /run/log/sshd
+exec svlogd -tt /run/log/sshd

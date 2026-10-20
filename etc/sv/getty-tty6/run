@@ -1,0 +1,2 @@
+#!/bin/sh
+exec setsid agetty -J 38400 tty6 linux
