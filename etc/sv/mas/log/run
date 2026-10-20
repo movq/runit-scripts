@@ -1,0 +1,3 @@
+#!/bin/sh
+mkdir -p /run/log/mas
+exec svlogd -tt /run/log/mas

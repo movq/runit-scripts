@@ -1,0 +1,3 @@
+#!/bin/sh
+mkdir -p /run/log/heisenbridge
+exec svlogd -tt /run/log/heisenbridge

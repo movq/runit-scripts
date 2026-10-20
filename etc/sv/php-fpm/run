@@ -1,0 +1,3 @@
+#!/bin/sh
+exec 2>&1
+exec php-fpm -F --fpm-config /etc/php/fpm-php8.3/php-fpm.conf

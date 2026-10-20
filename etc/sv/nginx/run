@@ -1,0 +1,5 @@
+#!/bin/sh
+exec 2>&1
+mkdir -p /run/nginx
+exec nginx -c /etc/nginx/nginx.conf -g 'daemon off;'
+

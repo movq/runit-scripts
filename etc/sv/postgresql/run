@@ -1,0 +1,8 @@
+#!/bin/sh
+exec 2>&1
+mkdir -p /run/postgresql
+chown postgres:postgres /run/postgresql
+exec chpst -u postgres \
+	/usr/lib64/postgresql-18/bin/postgres \
+	-D /etc/postgresql-18 \
+	--data-directory=/var/lib/postgresql/18/data

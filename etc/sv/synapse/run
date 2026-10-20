@@ -1,0 +1,4 @@
+#!/bin/sh
+exec 2>&1
+ulimit -Hn 32768
+exec chpst -u synapse -o 32768 synapse_homeserver --config-path /etc/synapse/homeserver.yaml

@@ -1,0 +1,3 @@
+#!/bin/sh
+mkdir -p /run/log/mautrix-discord
+exec svlogd -tt /run/log/mautrix-discord

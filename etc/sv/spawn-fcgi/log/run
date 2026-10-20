@@ -1,0 +1,3 @@
+#!/bin/sh
+mkdir -p /run/log/spawn-fcgi
+exec svlogd -tt /run/log/spawn-fcgi

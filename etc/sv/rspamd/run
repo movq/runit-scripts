@@ -1,0 +1,3 @@
+#!/bin/sh
+exec 2>&1
+exec rspamd -f -u rspamd -g rspamd -c /etc/rspamd/rspamd.conf

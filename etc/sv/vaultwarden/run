@@ -1,0 +1,3 @@
+#!/bin/sh
+exec 2>&1
+ENV_FILE=/etc/vaultwarden/vaultwarden.conf exec chpst -u vaultwarden -C /var/lib/vaultwarden vaultwarden

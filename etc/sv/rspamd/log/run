@@ -1,0 +1,3 @@
+#!/bin/sh
+mkdir -p /run/log/rspamd
+exec svlogd -tt /run/log/rspamd

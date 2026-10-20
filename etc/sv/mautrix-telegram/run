@@ -1,0 +1,3 @@
+#!/bin/sh
+exec 2>&1
+exec mautrix-telegram -c /etc/mautrix-telegram/config.yaml -r /etc/mautrix-telegram/registration.yaml

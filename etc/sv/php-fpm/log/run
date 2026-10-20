@@ -1,0 +1,3 @@
+#!/bin/sh
+mkdir -p /run/log/php-fpm
+exec svlogd -tt /run/log/php-fpm

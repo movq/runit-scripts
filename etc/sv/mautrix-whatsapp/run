@@ -1,0 +1,3 @@
+#!/bin/sh
+exec 2>&1
+exec mautrix-whatsapp -c /etc/mautrix-whatsapp/config.yaml -r /etc/mautrix-whatsapp/registration.yaml

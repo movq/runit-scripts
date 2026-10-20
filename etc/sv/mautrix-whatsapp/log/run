@@ -1,0 +1,3 @@
+#!/bin/sh
+mkdir -p /run/log/mautrix-whatsapp
+exec svlogd -tt /run/log/mautrix-whatsapp

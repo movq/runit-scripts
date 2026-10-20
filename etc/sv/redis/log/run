@@ -1,0 +1,3 @@
+#!/bin/sh
+mkdir -p /run/log/redis
+exec svlogd -tt /run/log/redis

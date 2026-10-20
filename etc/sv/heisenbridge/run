@@ -1,0 +1,5 @@
+#!/bin/sh
+exec 2>&1
+exec heisenbridge \
+	-c /etc/heisenbridge/registration.yaml \
+	-u heisenbridge -g heisenbridge
